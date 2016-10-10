@@ -1,0 +1,40 @@
+@import 'settings';
+@import 'foundation-emails';
+
+.footer{
+	background-color: $secondary-color;
+	padding: $global-padding;
+
+	th {
+		padding: $global-padding;
+	}
+
+	p {
+		color: $footer-text;
+		font-size: $global-font-size / 1.5;
+		margin-bottom: 0;
+
+		strong {
+			color: $white;
+		}
+
+		small{
+			color: $footer-text;
+			font-size: $global-font-size / 1.6;
+		}
+	}
+
+	a{
+		color: $white;
+	}
+}
+
+p.text-title{
+	font-size: $global-font-size * 1.5;
+}
+
+p.text-header{
+	font-size: $global-font-size * 1.2;
+	font-weight: 600;
+	color: $primary-color;
+}
